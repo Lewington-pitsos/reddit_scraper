@@ -1,0 +1,17 @@
+{
+  "name": "test-zombie",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "just l;earning how to use zombie.js",
+  "keywords": ["zombie.js"],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Lewington-pitsos/projects/tree/master/reddit/testing"
+  },
+  "dependencies": {
+    "zombie": ">=0",
+    "jquery": "3.2.1",
+    "async": ">=0",
+    "phantom": ">=0"
+  }
+}

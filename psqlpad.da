@@ -1,0 +1,15 @@
+CREATE TABLE comments(
+  id serial,
+  time TIMESTAMP,
+  name VARCHAR(40),
+  PRIMARY KEY(id)
+);
+
+ALTER TABLE comments ALTER COLUMN time SET DEFAULT now();
+
+
+--------------------------------------- all tables in database -----
+SELECT table_name
+  FROM information_schema.tables
+WHERE table_schema='public'
+  AND table_type='BASE TABLE';
